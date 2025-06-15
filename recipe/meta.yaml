@@ -1,5 +1,5 @@
 {% set name = "ocap" %}
-{% set version = "0.4.0" %}
+{% set version = "0.4.1" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/ocap-{{ version }}.tar.gz
-  sha256: da4f0d4c9bf85a3130b76bf095ba5c65dd06808e211bd281807e5f7a1735da2a
+  sha256: bbf82bda4b169572bd1965b559c72ca3daa707fd014446d654d935ec73217149
 
 build:
   entry_points:
